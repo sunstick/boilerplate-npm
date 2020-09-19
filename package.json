@@ -1,6 +1,6 @@
 {
-	"author": "Chi Su",
 	"name": "fcc-learn-npm-package-json",
+	"author": "Chi Su",
 	"dependencies": {
 		"express": "^4.14.0"
 	},
