@@ -1,5 +1,6 @@
 {
 	"author": "Chi Su",
+  "description": "My freecodecamp project",
 	"name": "fcc-learn-npm-package-json",
 	"dependencies": {
 		"express": "^4.14.0"
