@@ -1,4 +1,3 @@
-
 var express = require('express');
 var app = express();
 
@@ -9,18 +8,18 @@ var app = express();
 
 
 /** 1) Meet the node console. */
-console.log("Hello World")
+console.log("Hello World");
 
 /** 2) A first working Express Server */
 
 /** 3) Serve an HTML file */
 app.get("/", function (req, res) {
 	res.sendFile(__dirname + "/views/index.html")
-})
+});
 
 
 /** 4) Serve static assets  */
-
+app.use(express.static(__dirname + "/public"));
 
 /** 5) serve JSON on a specific route */
 
