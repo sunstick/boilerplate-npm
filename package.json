@@ -1,6 +1,7 @@
 {
 	"author": "Chi Su",
-  "description": "My freecodecamp project",
+	"description": "My freecodecamp project",
+  "keywords": [ "node", "web", "fun", "learn" ],
 	"name": "fcc-learn-npm-package-json",
 	"dependencies": {
 		"express": "^4.14.0"
